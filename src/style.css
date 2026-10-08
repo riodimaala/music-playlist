@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: black;
+  margin: 0;
+  padding: 20px;
+}
+
+.playlist {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.playlist h1 {
+  margin-bottom: 20px;
+  color: green;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 5px 10px green;
+}
+
+.card p {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+.upload-btn {
+  margin-top: 20px;
+  background: green;
+  color: white;
+  padding: 10px 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #eee;   
+  color: #333;
+}
+
+
+button:hover {
+  background: green;
+  color: white;
+}
+
